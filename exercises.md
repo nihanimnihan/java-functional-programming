@@ -1,19 +1,36 @@
-Exercise 1 Print Only Odd Numbers from the List
+**Exercise 1** 
+Print Only Odd Numbers from the List
+
+List.of(1,2,3,4,5,6)
 
 * FP02Functional_FilterApproach1.java
 * FP02Functional_FilterApproach2.java
 
-Exercise 2 Print Devices
+**Exercise 2** 
+Print Devices
 
 List<String> devices = List.of("Television", "Laptop", "Phone", "Computer", "Tablet");
 
-Exercise 3 Print Courses Containing the word "Spring"
+* FP01Functional_FilterExercise
 
-Exercise 4 Print Courses Whose Name has atleast 4 letters
+**Exercise 3** 
+Print Courses Containing the word "Laptop"
 
-Exercise 5 Print the cubes of odd numbers
+* FP01Functional_FilterExercise
 
-Exercise 6 Print the number of characters in each course name
+**Exercise 4** 
+Print Devices Whose Name has at least 6 letters
+
+* FP01Functional_FilterExercise
+
+**Exercise 5** 
+Print the cubes of odd numbers
+
+* FP01Functional_FilterExercise2
+
+Exercise 6 
+Print the number of characters in each device name
+
 
 Exercise 7 Square every number in a list and find the sum of squares
 

@@ -10,6 +10,7 @@ public class FP01Functional_FilterExercise {
         printAll(devices);
         printContain(devices, "Laptop");
         printByMinLength(devices, 6);
+        printLength(devices);
     }
 
     private static void printAll(List<String> devices) {
@@ -28,5 +29,11 @@ public class FP01Functional_FilterExercise {
 
         System.out.println("----- printByMinLength -----");
         devices.stream().filter(device -> device.length() >= length).forEach(System.out::println);
+    }
+
+    private static void printLength(List<String> devices) {
+
+        System.out.println("----- printLength -----");
+        devices.stream().map(device -> device + " " + device.length()).forEach(System.out::println);
     }
 }
