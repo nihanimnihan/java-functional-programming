@@ -3,10 +3,9 @@ Exercise 1 Print Only Odd Numbers from the List
 * FP02Functional_FilterApproach1.java
 * FP02Functional_FilterApproach2.java
 
-Exercise 2 Print All Courses individually
+Exercise 2 Print Devices
 
-List courses = List.of("Spring", "Spring Boot", "API" , "Microservices", "AWS", "PCF","Azure", "Docker", "Kubernetes")
-* FP01Functional_FilterExercise
+List<String> devices = List.of("Television", "Laptop", "Phone", "Computer", "Tablet");
 
 Exercise 3 Print Courses Containing the word "Spring"
 
