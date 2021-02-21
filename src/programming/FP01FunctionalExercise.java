@@ -2,7 +2,7 @@ package programming;
 
 import java.util.List;
 
-public class FP01Functional_FilterExercise {
+public class FP01FunctionalExercise {
     public static void main(String[] args) {
 
         List<String> devices = List.of("Television", "Laptop", "Phone", "Computer", "Tablet");
@@ -11,6 +11,11 @@ public class FP01Functional_FilterExercise {
         printContain(devices, "Laptop");
         printByMinLength(devices, 6);
         printLength(devices);
+
+        List<Integer> numbers = List.of(1,2,3,4,5,6);
+
+        printOddNumbersSquare(numbers);
+        printOddNumbersCube(numbers);
     }
 
     private static void printAll(List<String> devices) {
@@ -35,5 +40,17 @@ public class FP01Functional_FilterExercise {
 
         System.out.println("----- printLength -----");
         devices.stream().map(device -> device + " " + device.length()).forEach(System.out::println);
+    }
+
+    private static void printOddNumbersSquare(List<Integer> numbers) {
+
+        System.out.println("----- print all odd numbers square-----");
+        numbers.stream().filter(number -> number % 2 == 1).map(number -> number * number).forEach(System.out::println);
+    }
+
+    private static void printOddNumbersCube(List<Integer> numbers) {
+
+        System.out.println("----- print all odd numbers square-----");
+        numbers.stream().filter(number -> number % 2 == 1).map(number -> number * number * number).forEach(System.out::println);
     }
 }
