@@ -5,6 +5,7 @@ Exercise 1 Print Only Odd Numbers from the List
 Exercise 2 Print All Courses individually
 
 List courses = List.of("Spring", "Spring Boot", "API" , "Microservices", "AWS", "PCF","Azure", "Docker", "Kubernetes")
+* FP01Functional_FilterExercise
 
 Exercise 3 Print Courses Containing the word "Spring"
 
