@@ -2,6 +2,7 @@ Exercise 1 Print Only Odd Numbers from the List
 
 * FP02Functional_FilterApproach1.java
 * FP02Functional_FilterApproach2.java
+
 Exercise 2 Print All Courses individually
 
 List courses = List.of("Spring", "Spring Boot", "API" , "Microservices", "AWS", "PCF","Azure", "Docker", "Kubernetes")
