@@ -35,10 +35,12 @@ Create a List with Even Numbers Filtered from the Numbers List
 **Exercise 11** 
 Create a List with lengths of all Device titles.
 
-Exercise 12 Find Functional Interface behind the second argument of reduce method. Create an implementation for the Functional Interface.
+**Exercise 12** 
+Find Functional Interface behind the second argument of reduce method. Create an implementation for the Functional Interface.
 
 int sum = numbers.stream() .reduce(0, Integer::sum);
 
-Exercise 13 Do Behavior Parameterization for the mapping logic.
+**Exercise 13** 
+Do Behavior Parameterization for the mapping logic.
 
 List squaredNumbers = numbers.stream() .map(x -> x*x) .collect(Collectors.toList());
