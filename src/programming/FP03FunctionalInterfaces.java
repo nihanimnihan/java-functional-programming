@@ -1,10 +1,8 @@
 package programming;
 
 import java.util.List;
-import java.util.function.BinaryOperator;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
+import java.util.Random;
+import java.util.function.*;
 
 public class FP03FunctionalInterfaces {
 
@@ -51,6 +49,32 @@ public class FP03FunctionalInterfaces {
         };
 
         int sum = numbers.stream().reduce(0, sumBinaryOperator);
+
+        Supplier<Integer> randomIntegerSupplier = () -> {
+            Random random = new Random();
+            return random.nextInt(1000);
+        };
+
+        Supplier<Integer> randomIntegerSupplier2 = new Supplier<Integer>() {
+            @Override
+            public Integer get() {
+                Random random = new Random();
+                return random.nextInt(1000);
+            }
+        };
+
+        BiPredicate<Integer, String> biPredicate = (number, str) -> {
+            return number < 10 && str.length() > 5;
+        };
+
+        BiFunction<Integer, String, String> biFunction = (number, str) -> {
+            return number + " " + str;
+        };
+
+        BiConsumer<String, String> biConsumer = (s1, s2) -> {
+            System.out.println(s1);
+            System.out.println(s2);
+        };
 
 
     }
