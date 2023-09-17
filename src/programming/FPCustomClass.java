@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class FP04CustomClass {
+public class FPCustomClass {
 
     static class Course {
 
@@ -14,7 +14,6 @@ public class FP04CustomClass {
         private int reviewScore;
         private int noOfStudents;
 
-        public Course() {}
         public Course(String name, String category, int reviewScore, int noOfStudents) {
             this.name = name;
             this.category = category;

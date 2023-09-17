@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class FP02FunctionalExercise {
+public class FunctionalExercise02 {
 
     public static void main(String[] args) {
 

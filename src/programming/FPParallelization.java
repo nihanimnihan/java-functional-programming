@@ -2,7 +2,7 @@ package programming;
 
 import java.util.stream.LongStream;
 
-class FP05Parallelization {
+class FPParallelization {
 
     public static void main(String[] args) {
 

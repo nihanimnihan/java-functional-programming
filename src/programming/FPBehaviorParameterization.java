@@ -5,7 +5,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class FP03BehaviorParameterization {
+public class FPBehaviorParameterization {
 
     public static void main(String[] args) {
 

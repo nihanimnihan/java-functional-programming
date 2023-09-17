@@ -2,7 +2,7 @@ package programming;
 
 import java.util.List;
 
-public class FP01FunctionalExercise {
+public class FunctionalExercise01 {
     public static void main(String[] args) {
 
         List<String> devices = List.of("Television", "Laptop", "Phone", "Computer", "Tablet");

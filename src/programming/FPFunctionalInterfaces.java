@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.function.*;
 
-public class FP03FunctionalInterfaces {
+public class FPFunctionalInterfaces {
 
     public static void main(String[] args) {
 
